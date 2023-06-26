@@ -1,5 +1,5 @@
 import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
-import { Category } from "../../entities/category";
+import { Category } from "../../infra/typeorm/entities/category";
 import { inject, injectable } from "tsyringe";
 
 
